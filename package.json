@@ -1,0 +1,34 @@
+{
+  "name": "nest-final-project-ui",
+  "version": "1.0.0",
+  "description": "Final project for Nest Academy QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagusprakasa/nest-final-project-UI.git"
+  },
+  "keywords": [
+    "Automation",
+    "Testing",
+    "UI",
+    "Cypress"
+  ],
+  "author": "bagusprakasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagusprakasa/nest-final-project-UI/issues"
+  },
+  "homepage": "https://github.com/bagusprakasa/nest-final-project-UI#readme",
+  "devDependencies": {
+    "cypress": "^12.16.0"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "prettier": "^2.8.8"
+  }
+}
