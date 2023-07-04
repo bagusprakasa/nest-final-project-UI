@@ -51,3 +51,12 @@ describe("Transaction test", () => {
     element.click(transactionPage.resetTransaction);
   });
 });
+
+describe("Logout test", () => {
+  it.only("Customer Logout", () => {
+    element.click(loginPage.customerButtonLogin);
+    element.fillSelect(loginPage.customerSelect, 1);
+    element.click(loginPage.buttonSubmit);
+    element.click(loginPage.buttonLogout);
+  });
+});
