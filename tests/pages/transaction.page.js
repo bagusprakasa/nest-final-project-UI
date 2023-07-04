@@ -1,0 +1,10 @@
+export const transaction = '[ng-click="transactions()"]';
+export const dateStart = '[ng-model="startDate"]';
+export const dateEnd = '[name="end"]';
+export const deposit = '[ng-click="deposit()"]';
+export const depositInput = "[ng-model='amount']";
+export const withdrawl = '[ng-click="withdrawl()"]';
+export const withdrawlInput = "[ng-model='amount']";
+export const messageSuccess = '[ng-show="message"]';
+export const buttonSubmit = 'button[type="submit"]';
+export const resetTransaction = '[ng-click="reset()"]';
