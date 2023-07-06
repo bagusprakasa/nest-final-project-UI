@@ -8,3 +8,5 @@ export const userSelect = "#userSelect";
 export const currencySelect = '[name="currency"';
 export const searchCustomer = '[ng-model="searchCustomer"]';
 export const tbodyFirstName = ".ng-binding";
+export const deleteCust = '[ng-click="deleteCust(cust)"]';
+export const tableTbody = "tbody";
