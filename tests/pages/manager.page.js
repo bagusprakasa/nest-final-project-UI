@@ -4,3 +4,7 @@ export const customerButton = '[ng-click="showCust()"]';
 export const firstName = '[ng-model="fName"]';
 export const lastName = '[ng-model="lName"]';
 export const postCode = '[ng-model="postCd"]';
+export const userSelect = "#userSelect";
+export const currencySelect = '[name="currency"';
+export const searchCustomer = '[ng-model="searchCustomer"]';
+export const tbodyFirstName = ".ng-binding";
