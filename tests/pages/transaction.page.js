@@ -8,3 +8,4 @@ export const withdrawlInput = "[ng-model='amount']";
 export const messageSuccess = '[ng-show="message"]';
 export const buttonSubmit = 'button[type="submit"]';
 export const resetTransaction = '[ng-click="reset()"]';
+export const tableTbody = "tbody";
