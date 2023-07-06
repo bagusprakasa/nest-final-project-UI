@@ -39,4 +39,10 @@ describe("Customer Test", () => {
     element.click(loginPage.buttonSubmit);
     assert.shouldContainValue(managerPage.userSelect, "");
   });
+  it.only("Filter Customer", () => {
+    element.click(loginPage.managerButtonLogin);
+    element.click(managerPage.customerButton);
+    element.fillFilled(managerPage.searchCustomer, data.VALID_FILTER_CUSTOMER.firstname);
+    assert.shouldContainText(managerPage.tbodyFirstName, data.VALID_FILTER_CUSTOMER.firstname);
+  });
 });
